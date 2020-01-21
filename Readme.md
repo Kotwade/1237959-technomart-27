@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Илья Котиков](https://up.htmlacademy.ru/htmlcss/27/user/1237959).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Прусаков](https://htmlacademy.ru/profile/hikikomori).
 
 ---
 
