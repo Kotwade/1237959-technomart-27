@@ -62,7 +62,47 @@
       </section>
       <section>
         <h2>Фильтр товаров</h2>
-        <!--Здесь будет форма-->
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="Bosch" id="filter-bosch" checked>
+                <label for="filter-bosch">BOSCH</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Интерскол" id="filter-интерскол">
+                <label for="filter-интерскол">Интерскол</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Makita" id="filter-makita" checked>
+                <label for="filter-makita">Makita</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Dewalt" id="filter-dewalt">
+                <label for="filter-dewalt">dewalt</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Hitachi" id="filter-hitachi">
+                <label for="filter-hitachi">hitachi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Питание:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="supply" value="accumulator" id="filter-accumulator" checked>
+                <label for="filter-accumulator">Аккумуляторные</label>
+              </li>
+              <li>
+                <input type="radio" name="supply" value="network" id="filter-network">
+                <label for="filter-network">Сетевые</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
       </section>
       <section>
         <h2>Список перфораторов</h2>
@@ -166,6 +206,12 @@
             </p>
           </li>
         </ul>
+      </section>
+      <section>
+        <p><span>Галочка</span>Товар добавлен в корзину!</p>
+        <a href="#">Оформить заказ</a>
+        <a href="#">Продолжить покупки</a>
+        <button type="button">Закрыть</button>
       </section>
     </main>
     <footer>
