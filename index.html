@@ -8,7 +8,12 @@
     <header>
       <div>
         <a href="index.html"><img src="img/logo-technomart.svg" width="112" height="21" alt="Логотип Техномарта"></a>
-        <p>Поиск</p>
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <p>
+            <label for="search">Иконка</label>
+            <input id="search" type="text" name="search" placeholder="Поиск">
+          </p>
+        </form>
         <ul>
           <li><a href="#">Закладки</a></li>
           <li><a href="#">Корзина</a></li>
@@ -73,31 +78,6 @@
         </p>
         <a href="#">Заблудились? Напишите нам!</a>
       </section>
-      <section>
-        <form action="https://echo.htmlacademy.ru" method="POST">
-          <p>
-            <label for="user-name">Ваше имя:</label><br>
-            <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
-          </p>
-          <p>
-            <label for="user-email">Ваш e-mail:</label><br>
-            <input id="user-email" type="email" name="email" placeholder="email@example.com">
-          </p>
-          <p>
-            <label for="user-text">Текст письма:</label><br>
-            <textarea id="user-text" placeholder="В свободной форме"></textarea>
-          </p>
-          <button type="submit">Отправить</button>
-        </form>
-        <button type="button">Закрыть</button>
-      </section>
-      <section>
-        <h2>Адрес офиса</h2>
-        <p>
-          <img src="img/map-popup.png" width="1736" height="779" alt="Адрес офиса г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-        </p>
-        <button type="button">Закрыть</button>
-      </section>
     </main>
     <footer>
       <div>
@@ -141,8 +121,31 @@
         <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
       </p>
     </footer>
-
-    
+    <section>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          <label for="user-name">Ваше имя:</label>
+          <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="user-email">Ваш e-mail:</label>
+          <input id="user-email" type="email" name="email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="user-text">Текст письма:</label>
+          <textarea id="user-text" placeholder="В свободной форме"></textarea>
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
+      <button type="button">Закрыть</button>
+    </section>
+    <section>
+      <h2>Адрес офиса</h2>
+      <p>
+        <img src="img/map-popup.png" width="1736" height="779" alt="Адрес офиса г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+      </p>
+      <button type="button">Закрыть</button>
+    </section>
 
   </body>
 </html>
