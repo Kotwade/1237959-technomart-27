@@ -42,6 +42,7 @@ a {
 }
 
 .header-top {
+    display: flex;
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
@@ -53,7 +54,7 @@ a {
     border: none;
 }
 
-.search-form::placeholder {
+.search-form input::placeholder {
     color: #ffffff;
 }
 
