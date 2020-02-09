@@ -53,7 +53,7 @@ a {
     border: none;
 }
 
-.search-form ::placeholder {
+.search-form::placeholder {
     color: #ffffff;
 }
 
