@@ -42,11 +42,18 @@ a {
 }
 
 .header-top {
-    display: flex;
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
     background-color: #293449;
+}
+
+.container {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .search-form input {
@@ -90,6 +97,11 @@ a {
 .list-order a:hover,
 .list-order a:focus {
     background-color: #5fbb2d;
+}
+
+.about {
+    margin-left: 52px;
+    width: 200px;
 }
 
 .about p {
@@ -144,6 +156,10 @@ a {
 }
 
 .main-navigation {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 50px;
     background-color: #32425c;
 }
 
@@ -160,6 +176,18 @@ a {
 .site-navigation a:hover,
 .site-navigation a:focus {
     background-color: #293449;
+}
+
+.index-columns {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.description {
+    width: 521px;
 }
 
 .description-title {
@@ -180,6 +208,10 @@ a {
     line-height: 20px;
 }
 
+.contacts {
+    width: 303px;
+}
+
 .contacts-title {
     font-size: 30px;
     line-height: 30px;
@@ -195,6 +227,9 @@ a {
 
 .breadcrumbs {
     list-style: none;
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .breadcrumbs a {
@@ -219,6 +254,22 @@ a {
     text-transform: uppercase;
     color: #32425c;
     background-color: #f2f6f8;
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.catalog-filter {
+    width: 170px;
+}
+
+.catalog-columns {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .filter fieldset {
@@ -260,7 +311,22 @@ a {
 
 .catalog-list {
     list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 60px;
+    flex-wrap: wrap;
 }
+
+.catalog-item {
+    width: 220px;
+    margin-bottom: 21px;
+    margin-right: 23px;
+}
+
+.catalog-item:nth-child(3n) {
+    margin-right: 0;
+  }
 
 .catalog-item:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -322,6 +388,13 @@ a {
     background-color: #32425c;
 }
 
+.footer-container {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
 .footer-address p {
     color: #f3f7f9;
     font-size: 18px;
@@ -357,6 +430,14 @@ a {
 
 .footer-down {
     background-color: #293449;
+}
+
+.footer-down-container {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .footer-down p {
