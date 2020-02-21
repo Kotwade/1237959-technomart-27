@@ -148,16 +148,17 @@
           <label for="user-text">Текст письма:</label>
           <textarea id="user-text" placeholder="В свободной форме"></textarea>
         </p>
-        <button class="button" type="submit">Отправить</button>
       </form>
-      <button type="button">Закрыть</button>
+        <div class="button-container">
+          <button class="button" type="submit">Отправить</button>
+        </div>
+      <button type="button" class="button-close"></button>
     </section>
-    <section>
-      <h2>Адрес офиса</h2>
+    <section class="map-popup">
       <p>
-        <img src="img/map-popup.png" width="1736" height="779" alt="Адрес офиса г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+        <img src="img/map-popup.png" width="944" height="450" alt="Адрес офиса г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
       </p>
-      <button type="button">Закрыть</button>
+      <button type="button" class="button-close-map"></button>
     </section>
 
   </body>
