@@ -85,6 +85,8 @@ a {
 
 .search-icon {
     fill: #ffffff;
+    padding: 10px 12px;
+    border: none;
 }
 
 .search-form input {
@@ -104,8 +106,13 @@ a {
     background-color: #ffffff;
 }
 
+.search-form-input:hover + .search-icon {
+    background-color: #212a3a;
+}
+
 .search-form-input:focus + .search-icon {
     fill: #ee3643;
+    background-color: #ffffff;
 }
 
 .search-form label {
@@ -1008,27 +1015,14 @@ a {
     top: 5px;
     right: 5px;
   
-    width: 22px;
-    height: 22px;
-
+    width: 25px;
+    height: 25px;
     background-color: transparent;
-    border: 0;
-
+    border: none;
+    background-image: url("../img/icon-close.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
     cursor: pointer;
-}
-
-.button-close::before,
-.button-close::after {
-    content: "";
-
-    position: absolute;
-    top: 10px;
-    left: 2px;
-
-    width: 19px;
-    height: 3px;
-
-    background-color: #ee3643;
 }
 
 .button-close::before {
@@ -1046,51 +1040,26 @@ a {
     left: 50%;
     box-sizing: border-box;
     width: 944px;
+    border: none;
     padding: 0;
     margin-left: -472px;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 
 }
 
-.map-popup p {
-    padding: 0;
-    margin: 0;
-}
-
 .button-close-map {
     position: absolute;
-    top: 17px;
-    right: 19px;
-  
-    width: 22px;
-    height: 22px;
-
-    background-color: transparent;
-    border: 0;
-
-    cursor: pointer;
-}
-
-.button-close-map::before,
-.button-close-map::after {
-    content: "";
-
-    position: absolute;
     top: 10px;
-    left: 2px;
-
-    width: 19px;
-    height: 3px;
-
-    background-color: #ee3643;
-}
-
-.button-close-map::before {
-    transform: rotate(45deg);
-}
-
-.button-close-map::after {
-    transform: rotate(-45deg);
+    right: 10px;
+  
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    background-image: url("../img/icon-close.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
 }
 
 .cart-add {
@@ -1149,33 +1118,14 @@ a {
 
 .button-close-cart {
     position: absolute;
-    top: 3px;
+    top: 8px;
     right: 7px;
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
-    border: 0;
+    border: none;
+    background-image: url("../img/icon-close.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
     cursor: pointer;
-}
-
-.button-close-cart::before,
-.button-close-cart::after {
-    content: "";
-
-    position: absolute;
-    top: 10px;
-    left: 2px;
-
-    width: 19px;
-    height: 3px;
-
-    background-color: #ee3643;
-}
-
-.button-close-cart::before {
-    transform: rotate(45deg);
-}
-
-.button-close-cart::after {
-    transform: rotate(-45deg);
 }
