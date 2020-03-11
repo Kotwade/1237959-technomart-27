@@ -29,7 +29,7 @@
         <div class="about">
           <p>Интернет-магазин
             строительных материалов
-            и инструментов для ремонта
+            и&nbsp;инструментов для ремонта
           </p>
         </div>
         <div class="tel">
@@ -91,49 +91,52 @@
               </div>
               <div class="price-controls">
                 <input name="min-price" type="number" value="0">
+                <span>-</span>
                 <input class="input-right" name="max-price" type="number" value="30000">
               </div>
             </div>
           </fieldset>
+          <hr>
           <fieldset>
             <legend>Производители:</legend>
             <ul>
-              <li>
-                <input type="checkbox" name="manufactures" id="filter-bosch" checked>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="manufactures" id="filter-bosch" checked>
                 <label for="filter-bosch">BOSCH</label>
               </li>
-              <li>
-                <input type="checkbox" name="manufactures" id="filter-interskol">
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="manufactures" id="filter-interskol">
                 <label for="filter-interskol">Интерскол</label>
               </li>
-              <li>
-                <input type="checkbox" name="manufactures" id="filter-makita" checked>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="manufactures" id="filter-makita" checked>
                 <label for="filter-makita">Makita</label>
               </li>
-              <li>
-                <input type="checkbox" name="manufactures" id="filter-dewalt">
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="manufactures" id="filter-dewalt">
                 <label for="filter-dewalt">dewalt</label>
               </li>
-              <li>
-                <input type="checkbox" name="manufactures" id="filter-hitachi" disabled>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="manufactures" id="filter-hitachi" disabled>
                 <label for="filter-hitachi">hitachi</label>
               </li>
             </ul>
           </fieldset>
+          <hr class="filter-hr">
           <fieldset>
             <legend>Питание:</legend>
             <ul>
-              <li>
-                <input type="radio" name="supply" value="accumulator" id="filter-accumulator" checked>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="supply" value="accumulator" id="filter-accumulator" checked>
                 <label for="filter-accumulator">Аккумуляторные</label>
               </li>
-              <li>
-                <input type="radio" name="supply" value="network" id="filter-network">
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="supply" value="network" id="filter-network">
                 <label for="filter-network">Сетевые</label>
               </li>
             </ul>
           </fieldset>
-          <button type="submit">Показать</button>
+          <button class="filter-button" type="submit">Показать</button>
         </form>
       </section>
       <section class="catalog">
@@ -248,8 +251,8 @@
           <li class="pagination-item"><a href="#">3</a></li>
           <li class="pagination-item pagination-item-last"><a href="#">следующая</a></li>
         </ul>
-      </div>
       </section>
+      </div>
       <section class="perforator">
         <div class="about-perforator">
           <h3>пара слов о перфораторах</h3>
